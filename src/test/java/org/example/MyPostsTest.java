@@ -1,3 +1,5 @@
+package org.example;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeAll;
@@ -5,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 
-public class MyPostsTest extends AbstractTest{
+public class MyPostsTest extends AbstractTest {
     @Test
     void getRequestMyPosts() {
 

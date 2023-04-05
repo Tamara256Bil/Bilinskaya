@@ -1,3 +1,5 @@
+package org.example;
+
 import org.junit.jupiter.api.BeforeAll;
 
 import java.io.FileInputStream;
