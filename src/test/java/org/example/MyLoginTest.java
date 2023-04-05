@@ -19,6 +19,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(200);}
             @Test
             void postConnectUsersNoValid() {
@@ -31,6 +32,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(401);
         }
 
@@ -45,6 +47,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(401);
         }
 
@@ -60,6 +63,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(401);
         }
             @Test
@@ -74,6 +78,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(401);
         }
            @Test
@@ -88,6 +93,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
+                    .assertThat()
                     .statusCode(400);
         }
 
