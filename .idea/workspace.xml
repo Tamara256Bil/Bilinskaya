@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b824eee4-3096-4a67-903b-d699efd5434d" name="Changes" comment="new.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MyLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyLoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NotMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NotMyPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyPostsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NotMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NotMyPostsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyLoginTest">
+  <component name="RunManager" selected="JUnit.NotMyPostsTest">
     <configuration name="MyLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bilinskaya" />
       <option name="PACKAGE_NAME" value="org.example" />
@@ -76,6 +72,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MyPostsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPostsTest.getRequestMyPostsNoPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bilinskaya" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MyPostsTest" />
+      <option name="METHOD_NAME" value="getRequestMyPostsNoPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,23 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotMyPostsTest.getRequestNotMyPostsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bilinskaya" />
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NotMyPostsTest" />
-      <option name="METHOD_NAME" value="getRequestNotMyPostsNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyLoginTest" />
         <item itemvalue="JUnit.NotMyPostsTest" />
         <item itemvalue="JUnit.MyPostsTest" />
-        <item itemvalue="JUnit.NotMyPostsTest.getRequestNotMyPostsNegative" />
+        <item itemvalue="JUnit.MyPostsTest.getRequestMyPostsNoPage" />
         <item itemvalue="JUnit.NotMyPostsTest.getRequestNotMyPosts" />
+        <item itemvalue="JUnit.MyLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680688518317</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new.">
+      <created>1680720509863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680720509863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

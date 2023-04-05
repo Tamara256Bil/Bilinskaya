@@ -88,7 +88,7 @@ public class MyLoginTest  extends AbstractTest {
                     .when()
                     .post(AbstractTest.getBaseUrl() + "/gateway/login")
                     .then()
-                    .statusCode(200);
+                    .statusCode(400);
         }
 
             @BeforeAll
