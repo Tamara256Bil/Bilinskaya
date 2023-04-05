@@ -6,7 +6,6 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class AbstractTest {
-
     static Properties prop = new Properties();
     private static InputStream configFile;
     private static String token;
